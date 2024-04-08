@@ -1,19 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ecommerce_app/utils/theme/theme.dart';
+import 'package:flutter_ecommerce_app/my_app.dart';
 
 void main() {
+// TODO: Add Widgets Binding.
+// TODO: Init Local Stoarage
+// TODO: Await Native Splash
+// TODO: initialize Firebase
+// TODO: Initialize Firebase
+
   runApp(const MyApp());
-}
-
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      themeMode: ThemeMode.system,
-      theme: AppTheme.darkTheme,
-      darkTheme: AppTheme.darkTheme,
-    );
-  }
 }
