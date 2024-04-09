@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
+import 'package:flutter_ecommerce_app/features/authentication/screen/signup_screen/signup_screen.dart';
 import 'package:flutter_ecommerce_app/utils/constants/sizes.dart';
 import 'package:flutter_ecommerce_app/utils/constants/text_strings.dart';
+import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 
 class TLoginForm extends StatelessWidget {
@@ -43,7 +46,10 @@ class TLoginForm extends StatelessWidget {
                 // Remember
                 Row(
                   children: [
-                    Checkbox(value: true, onChanged: (value) {}),
+                    SizedBox(
+                        height: 24,
+                        width: 24,
+                        child: Checkbox(value: true, onChanged: (value) {})),
                     const Text(TTexts.rememberMe),
                   ],
                 ),
@@ -66,7 +72,9 @@ class TLoginForm extends StatelessWidget {
             SizedBox(
               width: double.infinity,
               child: OutlinedButton(
-                onPressed: () {},
+                onPressed: () {
+                  Get.to(() => const SignUpScreen());
+                },
                 child: const Text(TTexts.createAccount),
               ),
             ),
