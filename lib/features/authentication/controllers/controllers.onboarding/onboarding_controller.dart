@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ecommerce_app/features/authentication/screen/login_screen/login_screen.dart';
+import 'package:flutter_ecommerce_app/features/authentication/screen/auth_screen/login_screen/login_screen.dart';
 import 'package:get/get.dart';
 
 class OnBoardingController extends GetxController {

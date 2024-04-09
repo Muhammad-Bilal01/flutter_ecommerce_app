@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:flutter_ecommerce_app/features/authentication/screen/signup_screen/signup_screen.dart';
+import 'package:flutter_ecommerce_app/features/authentication/screen/auth_screen/password_configuration/forgot_password_screen.dart';
+import 'package:flutter_ecommerce_app/features/authentication/screen/auth_screen/signup_screen/signup_screen.dart';
 import 'package:flutter_ecommerce_app/utils/constants/sizes.dart';
 import 'package:flutter_ecommerce_app/utils/constants/text_strings.dart';
 import 'package:get/get.dart';
@@ -54,7 +55,7 @@ class TLoginForm extends StatelessWidget {
                   ],
                 ),
                 TextButton(
-                  onPressed: () {},
+                  onPressed: () => Get.to(() => const ForgotPasswordScreen()),
                   child: const Text(TTexts.forgetPassword),
                 ),
               ],

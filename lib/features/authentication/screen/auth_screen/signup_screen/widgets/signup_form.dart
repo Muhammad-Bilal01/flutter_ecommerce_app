@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ecommerce_app/features/authentication/screen/signup_screen/verify_email.dart';
+import 'package:flutter_ecommerce_app/features/authentication/screen/auth_screen/signup_screen/verify_email.dart';
 import 'package:flutter_ecommerce_app/utils/constants/colors.dart';
 import 'package:flutter_ecommerce_app/utils/constants/sizes.dart';
 import 'package:flutter_ecommerce_app/utils/constants/text_strings.dart';

@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_ecommerce_app/common/widgets/success_screen/success_screen.dart';
-import 'package:flutter_ecommerce_app/features/authentication/screen/login_screen/login_screen.dart';
+import 'package:flutter_ecommerce_app/features/authentication/screen/auth_screen/login_screen/login_screen.dart';
 import 'package:flutter_ecommerce_app/utils/constants/image_strings.dart';
 import 'package:flutter_ecommerce_app/utils/constants/sizes.dart';
 import 'package:flutter_ecommerce_app/utils/constants/text_strings.dart';
