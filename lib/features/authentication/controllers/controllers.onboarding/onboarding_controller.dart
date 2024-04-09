@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_ecommerce_app/features/authentication/screen/login_screen/login_screen.dart';
 import 'package:get/get.dart';
 
 class OnBoardingController extends GetxController {
@@ -23,6 +24,7 @@ class OnBoardingController extends GetxController {
   void nextPage() {
     if (currentPage.value == 2) {
       // go to login page
+      Get.offAll(LoginScreen());
     } else {
       int page = currentPage.value + 1;
       pageController.jumpToPage(page);
