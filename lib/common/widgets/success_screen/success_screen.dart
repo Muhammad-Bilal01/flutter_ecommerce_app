@@ -1,11 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_ecommerce_app/common/styles/spacing_styles.dart';
-import 'package:flutter_ecommerce_app/features/authentication/screen/auth_screen/login_screen/login_screen.dart';
-import 'package:flutter_ecommerce_app/utils/constants/image_strings.dart';
 import 'package:flutter_ecommerce_app/utils/constants/sizes.dart';
 import 'package:flutter_ecommerce_app/utils/constants/text_strings.dart';
 import 'package:flutter_ecommerce_app/utils/helpers/helper_functions.dart';
-import 'package:get/get.dart';
 
 class SuccessScreen extends StatelessWidget {
   const SuccessScreen(

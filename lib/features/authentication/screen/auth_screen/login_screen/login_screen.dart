@@ -4,13 +4,9 @@ import 'package:flutter_ecommerce_app/common/widgets/widgets.login_signup/form_d
 import 'package:flutter_ecommerce_app/common/widgets/widgets.login_signup/social_buttons.dart';
 import 'package:flutter_ecommerce_app/features/authentication/screen/auth_screen/login_screen/widgets/login_form.dart';
 import 'package:flutter_ecommerce_app/features/authentication/screen/auth_screen/login_screen/widgets/login_header.dart';
-import 'package:flutter_ecommerce_app/utils/constants/colors.dart';
-import 'package:flutter_ecommerce_app/utils/constants/image_strings.dart';
 import 'package:flutter_ecommerce_app/utils/constants/sizes.dart';
 import 'package:flutter_ecommerce_app/utils/constants/text_strings.dart';
-import 'package:flutter_ecommerce_app/utils/helpers/helper_functions.dart';
 import 'package:get/get.dart';
-import 'package:iconsax/iconsax.dart';
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({super.key});
